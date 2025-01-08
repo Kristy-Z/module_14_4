@@ -25,7 +25,6 @@ def initiate_db():
      connection.close()
 
 
-#get_all_products возвращает все записи из таблицы Products
 def get_all_products():
      connection = sqlite3.connect("base_module.db")
      cursor = connection.cursor()
